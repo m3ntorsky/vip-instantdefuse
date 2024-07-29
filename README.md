@@ -27,7 +27,7 @@
 
 > [!WARNING]
 > The plugin has been optimized for RAM consumption.
-![vip-instantdefuse](https://github.com/user-attachments/assets/47e66564-4de2-4703-b0d3-7a3de174128c)
+![vip-instantdefuse](https://i.imgur.com/M0JCcpS.png)
 
 
 ---
