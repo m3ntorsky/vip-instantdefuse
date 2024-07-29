@@ -39,7 +39,7 @@
 ```json
 {
     "prefix":"[{green}Swiftly{default}]",
-    "witout_kit": true,
+    "without_kit": true,
     "he_threat_check": true,
     "molotov_he_check": true,
     "alive_terrorist_check": true
