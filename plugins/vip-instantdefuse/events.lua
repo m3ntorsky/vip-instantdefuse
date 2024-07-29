@@ -1,3 +1,15 @@
+local Bomb = {
+    isPlanted = false,
+    plantedTime = nil,
+    Vector = nil
+}
+
+local Threat = {
+    he = 0,
+    molotov = 0,
+    inferno = {}
+}
+
 AddEventHandler("OnBombPlanted", function(event)
     Bomb.time = GetTime()
     Bomb.isPlanted = true

@@ -20,7 +20,7 @@ function GetPluginAuthor()
 end
 
 function GetPluginVersion()
-    return "v1.0.0fix"
+    return "v1.0.1"
 end
 
 function GetPluginName()
