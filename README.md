@@ -33,7 +33,7 @@
 ---
 ### Installation 👀
 
-1. Download the newest [release](https://github.com/swiftly-solution/vip-core/releases).
+1. Download the newest [release](https://github.com/m3ntorsky/vip-instantdefuse/releases).
 2. Everything is drag & drop, so i think you can do it!
 3. Setup config in `addons/swiftly/configs/plugins/vip-instantdefuse.json` for example:
 ```json
