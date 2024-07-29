@@ -1,10 +1,18 @@
 
 AddEventHandler("OnAllPluginsLoaded", function()
     if GetPluginState("vipcore") == PluginState_t.Started then
-        exports["vipcore"]:RegisterFeature("instantdefuse", "vip-instantdefuse.feature.title")
+        exports["vipcore"]:RegisterFeature("instant-defuse", "vip-instantdefuse.feature.title")
     end
 
     return EventResult.Continue
+end)
+
+AddEventHandler("OnPluginStop", function ()
+    if GetPluginState("vipcore") == PluginState_t.Started then
+        exports["vipcore"]:UnregisterFeature("instant-defuse")
+    end
+    return EventResult.Continue
+    
 end)
 
 function GetPluginAuthor()
