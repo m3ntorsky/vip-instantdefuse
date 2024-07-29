@@ -80,7 +80,7 @@ end)
 
 AddEventHandler("OnBombBegindefuse", function (event)
     local playerid = event:GetInt("userid")
-    if not config:Fetch("vip-instantdefuse.witout_kit") and not event:GetBool("haskit") then
+    if not config:Fetch("vip-instantdefuse.without_kit") and not event:GetBool("haskit") then
         return EventResult.Continue
     end
     if not exports["vipcore"]:IsFeatureEnabled(playerid,"instantdefuse") then
