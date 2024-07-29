@@ -45,7 +45,7 @@
     "alive_terrorist_check": true
 }
 ```
-4. Setup feature into group in `addons/swiftly/configs/plugins/vips.json` for example:
+4. Setup feature instant-defuse into group in `addons/swiftly/configs/plugins/vips.json` for example:
 ```json
 {
     "groups": [
@@ -57,7 +57,7 @@
                 "armor": 110,
                 "money": 2500,
                 "healthshot": 1,
-		"instantdefuse": true
+		"instant-defuse": true
             }
         }
     ],
